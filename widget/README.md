@@ -17,22 +17,23 @@ It delivers a fully isolated frontend using Shadow DOM and a scalable FastAPI ba
 
 📁 Project Structure
 Chatbot/
-├── widget/               # React Frontend (Embeddable Widget)
+├── widget/                     # React Frontend (Embeddable Widget)
 │   ├── src/
-│   │   ├── core/         # Chat configuration & Shadow DOM logic
-│   │   ├── store/        # Zustand store (state machine)
-│   │   ├── components/   # Isolated UI components
-│   │   ├── hooks/        # Custom hooks (useChatEngine)
-│   │   └── services/     # API integration layer
-│   └── vite.config.ts    # Vite build configuration
+│   │   ├── core/               # Chat configuration & Shadow DOM logic
+│   │   ├── store/              # Zustand store (state machine)
+│   │   ├── components/         # Isolated UI components
+│   │   ├── hooks/              # Custom hooks (useChatEngine)
+│   │   └── services/           # API integration layer
+│   └── vite.config.ts          # Vite build configuration
 │
-├── backend/              # FastAPI Backend
+├── backend/                    # FastAPI Backend
 │   ├── app/
-│   │   ├── main.py       # Application entry point & CORS config
-│   │   └── schemas.py    # Pydantic models
+│   │   ├── main.py             # Application entry point & CORS config
+│   │   └── schemas.py          # Pydantic models
 │   └── requirements.txt
 │
-└── demo.html             # Client-side embed test environment
+└── demo.html                   # Client-side embed test environment
+
 
 🚀 Features
 🔒 Isolated Embedding
