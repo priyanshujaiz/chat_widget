@@ -1,4 +1,4 @@
-💬 Chatbot — Embeddable Support Widget
+ Chatbot — Embeddable Support Widget
 
 Chatbot is a production-ready, embeddable customer support widget designed for seamless integration into any website.
 It delivers a fully isolated frontend using Shadow DOM and a scalable FastAPI backend for structured lead capture and validation.
